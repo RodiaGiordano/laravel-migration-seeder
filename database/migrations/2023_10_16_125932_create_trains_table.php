@@ -20,9 +20,9 @@ return new class extends Migration
             $table->string('stazione_di_arrivo', 50);
             $table->time('orario_di_partenza');
             $table->time('orario_di_arrivo');
-            $table->unsignedTinyInteger('Codice Treno');
-            $table->unsignedTinyInteger('Numero carrozze');
-            $table->boolean('In orario');
+            $table->unsignedTinyInteger('codice_treno');
+            $table->unsignedTinyInteger('numero_carrozze');
+            $table->boolean('in_orario');
             $table->boolean('Cancellato');
             $table->timestamps();
         });
